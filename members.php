@@ -224,19 +224,17 @@ include("steam/steamauth/userInfo.php");
                         <h3>Jackal<small>Member</small></h3>
                         <p>Pro GTA player, what he lacks in real life cash is the opposite when it comes to online shark cards. <br><br> "Quality! I'm currently writing my guide on how to be great at GTA Javi"</p>
                     </div>
-                </div>
-                
-                <!-- New Tile
-                <div class="col-sm-3">
+                </div>              
+            </div>
+            <div class="row">
+                <div class="col-xs-10 col-xs-offset-1 col-md-3 col-md-offset-0">
                     <div class="staff-profile" data-fit-for=".staff-profile in .row" data-department="">
-                        <a name="Jackal"></a>
-                        <img src="image" alt="Jackal">
-                        <h3>Jackal<small>Member</small></h3>
-                        <p>somethingabouttheperson</p>
+                        <a name="Felix"></a>
+                        <img src="img/felix.jpg" alt="Jackal">
+                        <h3>Felix<small>Assistant Web Developer</small></h3>
+                        <p>I'm not actually a GITS member but I felt like putting myself here, 100% not gay (stay away Root)</p>
                     </div>
-                </div>
-                <!-- New Tile -->
-                
+                </div> 
             </div>
             
         </div>
