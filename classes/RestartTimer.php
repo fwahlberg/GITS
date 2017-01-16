@@ -8,21 +8,34 @@
 date_default_timezone_set('Europe/London');
 class RestartTimer
 {
-	/**********************
-	Set class properties
-	**********************/
+
+	/**
+	 * $restartTime used to store restart times of server
+	 * @var array
+	 */
 	private $restartTimes = array("02:00","04:00","06:00", "08:00","12:00","14:00","16:00","18:00","20:00","22:00", "24:00");
+	/**
+	 * $todayDate initialized, value set in constructor
+	 * @var dateTime
+	 */	
 	private $todayDate;
+	/**
+	 * $todayTime again, initialised in constructor, stores the time
+	 * @var dateTime
+	 */
 	private $todayTime;
 	
-	/**********************
-	Constructor & toString Method
-	**********************/
+	/**
+	 * Constructor, initialises both time and date
+	 */
 	public function __construct() {
         $this->todayDate = date("Y-m-d");
 		$this->todayTime = date("H:i:s");
     }
-	
+	/**
+	 * Gives Return class methods
+	 * @return string Output format of class methods
+	 */
 	public function __toString()
 	{
 		$output = "";
@@ -32,11 +45,15 @@ class RestartTimer
 		return $output;
 	}
 	
-	/**********************
-	Get & Set
-	**********************/
+	/**
+	 * Optional restart time overide from default
+	 * @param array $times array of restart times
+	 */
 	public function setRestartTimes($times)
 	{
+		if (!is_array($times)) {
+        	throw new Exception('Parameter $times must be an array');
+    	}
 		$this->restartTimes = $times;
 	}
 	
@@ -89,7 +106,7 @@ class RestartTimer
 			$output .= "<h2 class='restart'>Server Restarting</h2>";
 			return $output;
 		}else{
-			return $hour . $minute . $diff->s ;
+			return $hour . $minute;
 		}
 		
 	}
