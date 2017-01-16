@@ -164,5 +164,4 @@ $timer = new RestartTimer;
 $timer->changeTime('PT2M', 'sub');
 echo $timer->execute();
 
-
 ?>
