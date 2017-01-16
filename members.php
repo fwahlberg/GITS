@@ -42,7 +42,7 @@ include("steam/steamauth/userInfo.php");
         <div class="padder"></div>
         <div class="container">
             <div class="row">
-                <div class="col-sm-3">
+                <div class="col-xs-10 col-xs-offset-1 col-md-3 col-md-offset-0">
                     <div class="staff-profile" data-fit-for=".staff-profile in .row" data-department="">
                         <a name="GENERAL"></a>
                         <img src="img/avatars/gen.png" alt="gen">
@@ -53,7 +53,7 @@ include("steam/steamauth/userInfo.php");
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-xs-10 col-xs-offset-1 col-md-3 col-md-offset-0">
                     <div class="staff-profile" data-fit-for=".staff-profile in .row" data-department="">
                         <a name="N@@B"></a>
                         <img src="img/avatars/nab.png" alt="N@@B">
@@ -61,7 +61,7 @@ include("steam/steamauth/userInfo.php");
                         <p>I Enjoy a little wasteland, mainly Epoch. Root is my god and i cannot handle legitimate kills.<br> Poepnoob Poepnoob Poepnoob <br><br> "I'm Naked" </p>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-xs-10 col-xs-offset-1 col-md-3 col-md-offset-0">
                     <div class="staff-profile" data-fit-for=".staff-profile in .row" data-department="">
                         <a name="Rick"></a>
                         <img src="img/avatars/rick.png" alt="Rick">
@@ -69,7 +69,7 @@ include("steam/steamauth/userInfo.php");
                         <p>In house developer <br>My opinions. Not necessarily shared by reasonable-minded people nor my benevolent corporate overlords<br><br> "You are all retards."</p>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-xs-10 col-xs-offset-1 col-md-3 col-md-offset-0">
                     <div class="staff-profile" data-fit-for=".staff-profile in .row" data-department="">
                         <a name="Root"></a>
                         <img src="img/avatars/root.png" alt="Root">
@@ -84,7 +84,7 @@ include("steam/steamauth/userInfo.php");
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-3">
+                <div class="col-xs-10 col-xs-offset-1 col-md-3 col-md-offset-0">
                     <div class="staff-profile" data-fit-for=".staff-profile in .row" data-department="">
                         <a name="Shanings"></a>
                         <img src="img/avatars/shanings.png" alt="Shanings">
@@ -96,7 +96,7 @@ include("steam/steamauth/userInfo.php");
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-xs-10 col-xs-offset-1 col-md-3 col-md-offset-0">
                     <div class="staff-profile" data-fit-for=".staff-profile in .row" data-department="">
                         <a name="Chasin"></a>
                         <img src="img/avatars/chasin.png" alt="Chasin">
@@ -104,7 +104,7 @@ include("steam/steamauth/userInfo.php");
                         <p>Chasin is just an absolute orgy of indecency. <br><br> "If you're gonna be a smartass, first you have to be smart. Otherwise you're just an ass."</p>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-xs-10 col-xs-offset-1 col-md-3 col-md-offset-0">
                     <div class="staff-profile" data-fit-for=".staff-profile in .row" data-department="">
                         <a name="Smoke"></a>
                         <img src="img/avatars/smoke.png" alt="Smoke">
@@ -115,7 +115,7 @@ include("steam/steamauth/userInfo.php");
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-xs-10 col-xs-offset-1 col-md-3 col-md-offset-0">
                     <div class="staff-profile" data-fit-for=".staff-profile in .row" data-department="">
                         <a name="Killer Epin"></a>
                         <img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/a9/a9527f88cbd87f45aa8171acfe02804ba4fa844d_full.jpg" alt="Killer Epin">
@@ -125,7 +125,7 @@ include("steam/steamauth/userInfo.php");
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-3">
+                <div class="col-xs-10 col-xs-offset-1 col-md-3 col-md-offset-0">
                     <div class="staff-profile" data-fit-for=".staff-profile in .row" data-department="">
                         <a name="Inctrl"></a>
                         <img src="img/avatars/inctrl.png" alt="Inctrl">
@@ -133,7 +133,7 @@ include("steam/steamauth/userInfo.php");
                         <p>Inctrl is the most mellow of us all, away roving and pillaging the world seas for most of it but always Inctrl. He regularly forgets to disable his swag when he signs off, always waking up covered in bitches.<br><br>"God created earth, and as a finishing touch he created the dutch."</p>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-xs-10 col-xs-offset-1 col-md-3 col-md-offset-0">
                     <div class="staff-profile" data-fit-for=".staff-profile in .row" data-department="">
                         <a name="Sidjj"></a>
                         <img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/c2/c2d65bcaa6eca14547324b497dcebd1909364651_full.jpg" alt="Sidjj">
@@ -141,7 +141,7 @@ include("steam/steamauth/userInfo.php");
                         <p>Awaiting Text.</p>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-xs-10 col-xs-offset-1 col-md-3 col-md-offset-0">
                     <div class="staff-profile" data-fit-for=".staff-profile in .row" data-department="">
                         <a name="Milo"></a>
                         <img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/d1/d17a31963855fd0447ba00bb73d398b51cc439a7_full.jpg" alt="Milo">
@@ -149,7 +149,7 @@ include("steam/steamauth/userInfo.php");
                         <p>Awaiting Text.</p>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-xs-10 col-xs-offset-1 col-md-3 col-md-offset-0">
                     <div class="staff-profile" data-fit-for=".staff-profile in .row" data-department="">
                         <a name="Mazza"></a>
                         <img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/03/03b3dd79391094b53401e53e99b80d36bbc5bc40_full.jpg" alt="Mazza">
@@ -159,7 +159,7 @@ include("steam/steamauth/userInfo.php");
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-3">
+                <div class="col-xs-10 col-xs-offset-1 col-md-3 col-md-offset-0">
                     <div class="staff-profile" data-fit-for=".staff-profile in .row" data-department="">
                         <a name="Ransacker"></a>
                         <img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/eb/ebdafa4c942009d583f8409952323fcf880ec214_full.jpg" alt="Ransacker">
@@ -167,7 +167,7 @@ include("steam/steamauth/userInfo.php");
                         <p>Awaiting Text.</p>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-xs-10 col-xs-offset-1 col-md-3 col-md-offset-0">
                     <div class="staff-profile" data-fit-for=".staff-profile in .row" data-department="">
                         <a name="Charlie"></a>
                         <img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/d2/d27043f6d10855ae2f9044b5fb78e7b54d479073_full.jpg" alt="Charlie">
@@ -175,7 +175,7 @@ include("steam/steamauth/userInfo.php");
                         <p>Awaiting Text.</p>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-xs-10 col-xs-offset-1 col-md-3 col-md-offset-0">
                     <div class="staff-profile" data-fit-for=".staff-profile in .row" data-department="">
                         <a name="Bash"></a>
                         <img src="img/avatars/bash.png" alt="Bash">
@@ -183,7 +183,7 @@ include("steam/steamauth/userInfo.php");
                         <p>Our Professional CSGO player, our very own child. We teach him the way's of life, put him on the right path. He's also completely obsessed with his penis. (We have all seen it) <br><br>"The R stands for Loyal"</p>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-xs-10 col-xs-offset-1 col-md-3 col-md-offset-0">
                     <div class="staff-profile" data-fit-for=".staff-profile in .row" data-department="">
                         <a name="Javi"></a>
                         <img src="img/avatars/javi.png" alt="Javi">
@@ -193,7 +193,7 @@ include("steam/steamauth/userInfo.php");
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-3">
+                <div class="col-xs-10 col-xs-offset-1 col-md-3 col-md-offset-0">
                     <div class="staff-profile" data-fit-for=".staff-profile in .row" data-department="">
                         <a name="Nathan"></a>
                         <img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/af/af1bbf5777decc4247afaaa05926a8faf2321ccb_full.jpg" alt="Nathan">
@@ -201,7 +201,7 @@ include("steam/steamauth/userInfo.php");
                         <p>Awaiting Text.</p>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-xs-10 col-xs-offset-1 col-md-3 col-md-offset-0">
                     <div class="staff-profile" data-fit-for=".staff-profile in .row" data-department="">
                         <a name="Combatdude"></a>
                         <img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/6b/6bcc94df860e8be8a493c9c2e92037906a7b1a82_full.jpg" alt="Combatdude ">
@@ -209,7 +209,7 @@ include("steam/steamauth/userInfo.php");
                         <p>Awaiting Text.</p>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-xs-10 col-xs-offset-1 col-md-3 col-md-offset-0">
                     <div class="staff-profile" data-fit-for=".staff-profile in .row" data-department="">
                         <a name="Make76"></a>
                         <img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/df/dff5786e20c3cfc062daa14671afbfb5cfdf8cc1_full.jpg" alt="Make76">
@@ -217,7 +217,7 @@ include("steam/steamauth/userInfo.php");
                         <p>Awaiting Text.</p>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-xs-10 col-xs-offset-1 col-md-3 col-md-offset-0">
                     <div class="staff-profile" data-fit-for=".staff-profile in .row" data-department="">
                         <a name="Jackal"></a>
                         <img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/88/88bb7821587e54f6c19a2fdf8b47806a857d65fe_full.jpg" alt="Jackal">
