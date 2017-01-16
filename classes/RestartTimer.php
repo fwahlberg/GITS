@@ -56,15 +56,19 @@ class RestartTimer
     	}
 		$this->restartTimes = $times;
 	}
-	
+	/**
+	 * User may want to fetch array of restart time for display
+	 * @return array array of restart times
+	 */
 	public function getRestartTimes()
 	{
 		return $this->restartTimes;
 	}
 	
-	/**********************
-	Functionality 
-	**********************/
+	/**
+	 * Will return the next nearest restart time
+	 * @return String Returns the time from array
+	 */
 	private function findNearestTime(){
 		foreach ($this->restartTimes as $time) {
 			if($this->todayTime < $time)
@@ -75,7 +79,8 @@ class RestartTimer
 		}
 	}
 	/**
-	 * @return DateInterval
+	 * Will use the php built in fucntion diff to determine time between current time and next nearest restart time
+	 * @return Object object of time value between now and next restart time
 	 */
 	private function findTimeDifference(){
 		$d1 = new dateTime("$this->todayDate . $this->todayTime");  
@@ -83,8 +88,9 @@ class RestartTimer
 		return $d2->diff($d1);
 	}
 	/**
-	 * @param  DateInterval
-	 * @return String
+	 * Formats output to display how long until restart in hours and minutes
+	 * @param  object $diff object containg time difference data
+	 * @return string       returns formatted time before restart
 	 */
 	private function formatOutput($diff){
 		if($diff->h > 1 || $diff->h == 0){
@@ -111,9 +117,9 @@ class RestartTimer
 		
 	}
 	/**
-	 * @param  String
-	 * @param  String
-	 * @return null
+	 * Allows user to alter current time to account for any clock discrepencies
+	 * @param  string $time used to specify time added
+	 * @param  string $mode used to determinne whether it should be added or subtracted from current time
 	 */
 	public function changeTime($time,$mode)
 	{
@@ -125,7 +131,12 @@ class RestartTimer
 		}
 		$this->todayTime = $this->todayTime->format('H:i:s');
 	}
-	
+	/**
+	 * Simply for debugging, if the user needs to specify a current time, it overides the computer clock.
+	 * @param  dateTime $date contains the requested date in the format: "Y-m-d"
+	 * @param  dateTie $time contains the requested time
+	 * @return setvaraible       sets the corresponding time and date
+	 */
 	public function testDateTime($date = null, $time = null)
 	{
 		if(isset($date) && isset($time)){
@@ -138,11 +149,10 @@ class RestartTimer
 		}
 	}
 	
-	
-	/**********************
-	Main Method
-	**********************/
-	
+	/**
+	 * returns the restart Timer
+	 * @return string returns formatted timme difference
+	 */
 	public function execute()
 	{
 		return $this->formatOutput($this->findTimeDifference());
