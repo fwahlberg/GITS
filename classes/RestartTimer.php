@@ -1,8 +1,8 @@
 <?php
 /****************************************************************************
 *****************************************************************************
-	Created by Felix Wahlberg for Owen Doherty on behalf of GITS Gaming Clan
-	© Felix Wahlberg 2017
+Created by Felix Wahlberg for Owen Doherty on behalf of GITS Gaming Clan
+© Felix Wahlberg 2017
 *****************************************************************************
 ****************************************************************************/
 date_default_timezone_set('Europe/London');
