@@ -13,7 +13,7 @@ class RestartTimer
 	 * $restartTime used to store restart times of server
 	 * @var array
 	 */
-	private $restartTimes = array("02:00","04:00","06:00", "08:00","12:00","14:00","16:00","18:00","20:00","22:00", "24:00");
+	private $restartTimes = array("02:00","04:00","06:00", "08:00","10:00","12:00","14:00","16:00","18:00","20:00","22:00", "24:00");
 	/**
 	 * $todayDate initialized, value set in constructor
 	 * @var dateTime
